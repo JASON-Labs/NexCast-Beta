@@ -17,7 +17,7 @@ export default function Home() {
                 <button className="bg-[#C499F3] text-white font-bold py-3 px-7 rounded-full mt-12 mr-8">Get Started</button>
                 <button className="bg-[#C499F3] text-white font-bold py-3 px-7 rounded-full mt-12" >View on GitHub</button>
             </div>
-
+            
 
         </>
     );

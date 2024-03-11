@@ -1,6 +1,6 @@
 import { useState, useEffect, useRef } from 'react';
 import Navbar from './constants/navbar/Navbar';
-
+import HomeAbout from './components/HomeAbout';
 import './App.css';
 import Home from './components/Home';
 
@@ -15,10 +15,10 @@ function App() {
 
           <Navbar/>
           <Home />
-        
+          <HomeAbout />
       </div>
     </>
-  )
-}
+  );
+};
 
 export default App;
