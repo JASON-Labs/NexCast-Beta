@@ -3,8 +3,11 @@
 @tailwind utilities;
 
 body{
-  
-  color: #35374B;
+
+  background: linear-gradient(to bottom, hsla(240, 25%, 89%, 0), rgb(22, 22, 25)) #190e0e; 
+  color: rgb(188, 183, 175);
+
+  /* color: #35374B; */
  /* background: #d7c4f00c
   /*
   background: -webkit-linear-gradient(to right, #414345, #232526);

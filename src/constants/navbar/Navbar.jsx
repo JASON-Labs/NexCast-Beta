@@ -22,16 +22,16 @@ const Navbar = () => {
   ];
 
   return (
-    <div className='bg-transparent flex justify-between items-center h-20 max-w-full mx-auto px-4 text-[#35374B] font-roboto font-bold'>
+    <div className='bg-transparent flex justify-between items-center h-20 max-w-full mx-auto px-4 text-[#fff] font-roboto font-bold'>
       {/* Logo */}
-      <h1 className='w-full text-3xl font-bold gradient-animation bg-gradient-to-r from-indigo-500 via-red-500 to-fuchsia-500 bg-clip-text text-transparent font-roboto'>NexCast . </h1>
+      <h1 className='w-full text-4xl font-bold gradient-animation bg-gradient-to-r from-indigo-500 via-red-500 to-fuchsia-500 bg-clip-text text-transparent px-9'>NexCast . </h1>
 
       {/* Desktop Navigation */}
       <ul className='hidden md:flex'>
   {navItems.map(item => (
     <li
       key={item.id}
-      className={`p-4 rounded-full m-2 cursor-pointer duration-400 ${item.text === 'Subscribe' ? 'bg-[#C499F3] text-white' : 'hover:bg-[#C499F3] hover:text-white'}`}
+      className={`p-4 rounded-full m-2 cursor-pointer duration-400 ${item.text === 'Subscribe' ? 'bg-[#612897] text-white' : 'hover:bg-[#8E7AB5] hover:text-white'}`}
     >
       {item.text}
     </li>
